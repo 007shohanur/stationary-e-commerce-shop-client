@@ -50,7 +50,7 @@ export const UserOrders = () => {
                   <TableCell className="py-4">{order._id}</TableCell>
                   <TableCell className="py-4">{order.product}</TableCell>
                   <TableCell className="py-4">{order.quantity}</TableCell>
-                  <TableCell className="py-4">{order.totalPrice}</TableCell>
+                  <TableCell className="py-4">{order.totalPrice} TK </TableCell>
                   <TableCell
                     className={`py-4 font-medium ${
                       order.status === "Pending"

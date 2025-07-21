@@ -110,7 +110,7 @@ const AllProductsPage: React.FC = () => {
             <option value="">All</option>
             {priceRanges.map((range, idx) => (
               <option key={idx} value={range.end}>
-                Up to ${range.end}
+                Up to {range.end}
               </option>
             ))}
           </select>
@@ -172,7 +172,7 @@ const AllProductsPage: React.FC = () => {
                 </p>
 
                 <p className="text-purple-600 font-bold text-lg mb-4">
-                  ${product.price}
+                  {product.price}
                 </p>
               </Link>
 

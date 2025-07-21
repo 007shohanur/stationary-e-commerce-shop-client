@@ -91,7 +91,7 @@ export const ProductShowcase: React.FC<ProductShowcaseProps> = ({
                   {product.description}
                 </p>
                 <p className="text-lg font-semibold text-gray-700">
-                  {product.price}
+                  {product.price} TK 
                 </p>
               </Link>
               <Button

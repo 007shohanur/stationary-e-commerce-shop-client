@@ -78,7 +78,7 @@ export const OrderTable = () => {
                   <TableCell className="py-4">{order.quantity}</TableCell>
                   <TableCell className="py-4">{order.status}</TableCell>
                   <TableCell className="py-4">
-                    ${order.totalPrice.toFixed(2)}
+                    {order.totalPrice.toFixed(2)} TK
                   </TableCell>
                   <TableCell className="py-4">
                     {new Date(order.createdAt).toLocaleDateString()}
