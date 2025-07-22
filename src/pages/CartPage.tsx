@@ -39,9 +39,9 @@ const CartPage = () => {
             cartItems: cartItems,
             currency: "BDT",
             tran_id: `TRX-${Date.now()}`,
-            success_url: `https://stationary-shop-api-server.vercel.app/success`,
-            fail_url: `https://stationary-shop-api-server.vercel.app/fail`,
-            cancel_url: `https://stationary-shop-api-server.vercel.app/cancel`,
+            success_url: `https://stationary-shop-e-commerce.vercel.app/success`,
+            fail_url: `https://stationary-shop-e-commerce.vercel.app/fail`,
+            cancel_url: `https://stationary-shop-e-commerce.vercel.app/cancel`,
             customer: {
               name: user?.name,
               email: user?.email,
