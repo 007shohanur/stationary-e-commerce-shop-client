@@ -18,6 +18,7 @@ import { Contact } from "@/pages/Contact";
 import AdminCharts from "@/pages/Dashboard/Admin/AdminCharts";
 import { UserCharts } from "@/pages/Dashboard/User/UserCharts";
 import Success from "@/pages/Success";
+import { AdminLogin } from "@/pages/AdminLogin";
 
 
 // Private Route Wrapper
@@ -45,6 +46,7 @@ const appRoutes = createBrowserRouter([
       { path: "/all-products", element: <AllProducts /> },
       { path: "/product-details/:productId", element: <ProductDetails /> },
       { path: "/login", element: <Login /> },
+      { path: "/admin/login", element: <AdminLogin /> },
       { path: "/success", element: <Success /> },
 
 

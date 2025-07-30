@@ -227,6 +227,9 @@ export const Login: React.FC = () => {
             </Button>
           </form>
         )}
+        <div className="text-end mt-4 text-xs text-blue-500 hover:underline">
+        <Link  to="/admin/login" >Login as Admin</Link>
+        </div>
       </div>
     </div>
   );
